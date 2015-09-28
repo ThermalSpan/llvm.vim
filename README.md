@@ -7,9 +7,7 @@ I suggest using a plugin manager with vim. I personally use NeoBundle, so all yo
 NeoBundle 'ThermalSpan/llvm.vim'
 ```
 This repository includes:
-<ul>
-<li>
-###### llvm.vim
+#### llvm.vim
 
 Syntax highlighting mode for LLVM assembly files. To use, copy `llvm.vim' to ~/.vim/syntax and add this code to your ~/.vimrc :
 ```
@@ -17,9 +15,7 @@ augroup filetype
     au! BufRead,BufNewFile *.ll     set filetype=llvm
 augroup END
 ```
-</li>
-<li>
-###### tablegen.vim
+##### tablegen.vim
 
 Syntax highlighting mode for TableGen description files. To use, add this code to your ~/.vimrc :
 ```
@@ -27,8 +23,6 @@ augroup filetype
      au! BufRead,BufNewFile *.td     set filetype=tablegen
 augroup END
 ```
-</li>
-</ul>
 
 ### Additional info
 Note: If you notice missing or incorrect syntax highlighting, please contact
