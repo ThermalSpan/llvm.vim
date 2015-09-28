@@ -1,5 +1,5 @@
 # llvm.vim
-I forked Superbill/llvm.vim, which uses files created by the llvm team. I dunno if Superbill is involved. Anywho, this is a vim plugin that includes syntax highlighting for llvm files. However, it also includes a file that sets up your editor to be compliant with llvm coding standards. Which is cool and all but I want to keep the this plugin on all the time and not have to worry about my tab spacing and such. 
+I forked Superbill/llvm.vim, which uses files created by the llvm team. I dunno if Superbill is on that team. I wanted to change it a  bit so that llvm.vim only deals with llvm stuff. The old version had did things that I would prefer to deal with in my .vimrc like setting the tab width, and highlighting trailing whitespace. 
 
 ### How?
 I suggest using a plugin manager with vim. I personally use NeoBundle, so all you need to do is add the following line to your .vimrci in the appropriate place:
